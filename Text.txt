@@ -1,0 +1,11 @@
+HEROKU URL: https://nv-logging.herokuapp.com/
+
+END-POINT Details:
+/ -> main page
+/logging -> for creating a text file(date-time.txt) in the folder with content as current timestamp
+/get-files -> for retrieving files available in the folder
+
+GITHUB URL:
+https://github.com/NivedithaSekar/NodeJS-FileSystem/
+
+Last Commited HashID:
