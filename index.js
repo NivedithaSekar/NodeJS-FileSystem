@@ -30,7 +30,8 @@ app.get('/get-files',(req,res) =>{
     if(err){
         console.log(err);
          }else{
-             res.send(`Files available in /TextFiles are: </br>${files.map((file) => `<li>${file}</li>`)}</br></br>/logging -> for creating a text file(date-time.txt) in the folder with content as current timestamp</br>/get-files -> for retrieving files available in the folder`);
+          res.send(files);   
+          //res.send(`Files available in /TextFiles are: </br>${files.map((file) => `<li>${file}</li>`)}</br></br>/logging -> for creating a text file(date-time.txt) in the folder with content as current timestamp</br>/get-files -> for retrieving files available in the folder`);
          }
      });
 })
