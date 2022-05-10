@@ -1,0 +1,13 @@
+npm init //This utility will walk you through creating a package.json file.
+//In package.json -> add "start":"node index.js" in scripts
+ & 
+ "type":"module" //to use modules like fs/express/others..else it will throw an error in npm start
+
+npm i node //To Install Node_Modules
+
+npm i express
+
+npm install --save-dev supervisor //"start":"supervisor index.js"
+
+npm i dotenv
+create .env file and mention the PORT number for localhost
